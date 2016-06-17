@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url">http://10.0.2.2:3000/</string>
+    <string name="url_login">usuarios/login</string>
+    <string name="url_post">usuarios</string>
+    <string name="url_get">usuarios</string>
+
+
+</resources>

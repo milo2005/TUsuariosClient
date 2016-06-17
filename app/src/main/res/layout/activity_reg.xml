@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+        <variable
+            name="onClick"
+            type="android.view.View.OnClickListener"/>
+    </data>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <EditText
+            android:id="@+id/nombre"
+            android:hint="@string/reg_nombre"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/correo"
+            android:hint="@string/reg_correo"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/usuario"
+            android:hint="@string/reg_usuario"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/pass"
+            android:hint="@string/reg_password"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:text="@string/reg"
+            app:setOnClickListener="@{onClick}"
+            />
+
+    </TableLayout>
+</layout>

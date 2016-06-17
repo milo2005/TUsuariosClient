@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovilClient</string>
+    <string name="login_usr">Usuarios</string>
+    <string name="login_pass">Password</string>
+    <string name="reg_nombre">Nombre</string>
+    <string name="reg_correo">Correo</string>
+    <string name="reg_usuario">Usuario</string>
+    <string name="reg_password">Contraseña</string>
+    <string name="reg">Registrar</string>
+</resources>
